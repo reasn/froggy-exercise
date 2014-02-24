@@ -1,15 +1,7 @@
 <?php
 $authors = array (
-		'0' => array (
-				'name' => 'Joane K. Rowling',
-				'country' => 'Great Britain',
-				'dateOfBirth' => '1965-07-31' 
-		),
-		'1' => array (
-				'name' => 'Charles Darwin',
-				'country' => 'Great Britain',
-				'dateOfBirth' => '1809-02-12' 
-		) 
+		new Author ( 0, 'Joane K. Rowling', 'Great Britain', new DateTime ( '1965-07-31' ) ),
+		new Author ( 1, 'Charles Darwin', 'Great Britain', new DateTime ( '1809-02-12' ) ) 
 );
 ?>
 <html>
@@ -48,7 +40,7 @@ $(function() {
 			</thead>
 			<tbody>
 				<tr class="danger">
-					<td colspan="5">Not loaded yet</td>
+					<td colspan="3">Not loaded yet</td>
 				</tr>
 			</tbody>
 		</table>

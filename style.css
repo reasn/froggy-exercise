@@ -4,6 +4,9 @@ body{
 #authors table {
 	max-width: 800px
 }
+tbody td {
+	cursor: pointer
+}
 th:nth-child(1) {
 	width: 400px
 }
