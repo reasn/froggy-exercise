@@ -1,7 +1,7 @@
 Netvacation frontend exercise no. 1 - "froggy and the raving rodents"
 
 ### Summary ###
-Your JS application ("app") for use in a small private library allows users quickly find out whether specific books are fore sale.
+Your JS application ("app") for use in a small private library allows users quickly find out whether specific books are for sale.
 To do so it puts out a list of authors. The user can click each of them to get a list of books written by him/her.
 For each book the user can query a server for live pricing and availability. 
 

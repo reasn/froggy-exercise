@@ -1,4 +1,7 @@
 <?php
+
+require_once __DIR__ . '/Author.php';
+
 $authors = array (
 		new Author ( 0, 'Joane K. Rowling', 'Great Britain', new DateTime ( '1965-07-31' ) ),
 		new Author ( 1, 'Charles Darwin', 'Great Britain', new DateTime ( '1809-02-12' ) ) 
@@ -52,7 +55,7 @@ $(function() {
 		<h1>
 			Books written by <span id="author-name">&nbsp;</span>:
 		</h1>
-		<table class="table table-striped table-hover" id="authors">
+		<table class="table table-striped table-hover" id="books-table">
 			<thead>
 				<tr>
 					<th>Title</th>
