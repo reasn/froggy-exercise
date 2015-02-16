@@ -1,4 +1,4 @@
-Netvacation frontend exercise no. 1 - "froggy and the raving rodents"
+frontend exercise no. 1 - "froggy and the raving rodents"
 
 ### Summary ###
 Your JS application ("app") for use in a small private library allows users quickly find out whether specific books are for sale.
